@@ -1,0 +1,22 @@
+<style>
+
+*{
+   box-sizing: border-box;
+}
+
+	h1 {
+    	color: black;
+    	font-family: georgia;
+    	font-size: 80px;
+    	
+	}
+	
+	
+	p {
+    	color: black;
+	}
+
+	#wrapper { 
+		background-color: black;
+
+</style>
