@@ -47,55 +47,77 @@
 	
 	.project1 {
 		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 0px 22px 22px 0px;
 
 	}
 
 	#project1 {
 		position: absolute;
 		left: 10px;
-		top:90px;
+		top:85px;
+
 	}
 		
 	.project2 {
 		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 0px 22px 22px 0px;
 
 	}
 
 	#project2 {
 		position: absolute;
 		left: 10px;
-		top:90px;	
+		top: 85px;
+		width: 212px;	
 	}
 	.project3 {
 		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
 
 	}
 
 	#project3 {
 		position: absolute;
 		left: 10px;
-		top:90px;
+		top: 85px;
 	}
 	.project4 {
 		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
 
 	}
 
 	#project4 {
 		position: absolute;
 		left: 10px;
-		top:90px;
+		top: 85px;
 		}
 
 	.project5 {
 		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
 
 	}
 
 	#project5 {
 		position: absolute;
 		left: 10px;
-		top:90px;
+		top: 85px;
 		}
 
     header {
@@ -221,7 +243,7 @@
 	footer {
 		box-sizing: border-box;
 		position: absolute;
-		padding: 40px;
+		padding: 30px;
 		bottom: 0;
 		width: 960px;
 		background: #666666;
@@ -229,7 +251,7 @@
 		font-family: helvetica;
 		font-size: 10px;
 		text-align: center;
-		border-top: 10px solid #4aaaa5;
+		border-top: 7px solid #4aaaa5;
 		float: left;
 	}
 
