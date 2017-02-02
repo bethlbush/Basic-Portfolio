@@ -1,22 +1,174 @@
 <style>
 
-*{
-   box-sizing: border-box;
-}
-
+	body{
+		position: relative;
+		box-sizing: border-box;
+		min-height: 100%
+		padding-bottom: 75px;
+		width: 960px;
+				
+		}
+	
 	h1 {
-    	color: black;
+    	background: #4aaaa5;
+    	color: #ffffff;
     	font-family: georgia;
-    	font-size: 80px;
+    	font-size: 20px;
+    	padding: 17px;
+    	width: 120px;
+    	margin-left: 60px;
+    	float: left;
+    	text-align: center;
+    }
+
+    h2 {
+    	color: #4aaaa5;
+    	font-size: 20px;
+    	font-family: georgia;
+    }
+
+    h3 {
+    	color: #4aaaa5;
+    	font-size: 15px;
+    	font-family: georgia;
+    }
+
+    h4 {
     	
+    	font-size: 20px;
+    	color: #ffffff;
+    	background: #4aaaa5;
+    	text-align: center;
+    	width: 212px;
+    	height: 38px;
+    	padding-top: 12px;
+    	
+    }
+	
+	.project1 {
+		position: relative;
+	}
+
+	#project1 {
+		position: absolute;
+		
+	}
+
+
+    header {
+    	position: relative;
+    	height: 70px;
+    	background-color: #ffffff;
+    	text-align: center;
+    	
+    }
+	
+	nav {
+		float: left;
+		margin-right: 110px;
+		margin-top: 30px;
+		margin-left: 445px;
+	}
+
+	ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+
+	}
+	li {
+		display: inline-block;
+		font-family: helvetica;
+		font-size: 12px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-right: 1px solid #dcdcdc;
+	}
+ 
+	li:last-child {
+    	border-right: none;
+		}
+
+    img {
+    	float: left;
+    	padding:10px;
+    }
+    a {
+    	text-decoration: none;
+    	color: #777777;
 	}
 	
-	
 	p {
-    	color: black;
+    	color: #777777;
+    	float: left;
+	}
+
+	hr {
+		color: #cccccc;
+		}
+
+	form{
+		color: #777777;
+		}
+
+	input{
+		color: #cccccc;
 	}
 
 	#wrapper { 
-		background-color: black;
+		position: relative;
+		width:960px;
+		height: 1000px;
+		background-image: url(../images/tree_bark.png);
+		border-top: 1.5px solid #cccccc
+	}
+
+	.mainBox {
+		position: absolute;
+		width: 470px;
+		background: #ffffff;
+		border: solid #dddddd;
+		float: left;
+		margin: 30px 20px 0px 60px;
+		padding:0px 30px 30px 30px;
+		}
+
+	.connectBox {
+		
+		box-sizing: border-box;
+		position: relative;
+		width: 200px;
+		height: 150px;
+		background: #ffffff;
+		margin: 30px 110px 0px 30px;
+		border: solid #dddddd;
+		padding-left: 20px;
+		padding-right: 20px;
+		float: right;
+		text-align: center;
+		
+	}
+
+	.favicon {
+		width: 45px;
+		height: 45px;
+		padding: 15px 0px 0px 7px;
+	}
+
+	footer {
+		box-sizing: border-box;
+		position: absolute;
+		padding: 40px;
+		bottom: 0;
+		width: 960px;
+		height: 10px;
+		background: #666666;
+		color: #cccccc;
+		font-family: helvetica;
+		font-size: 10px;
+		text-align: center;
+		border-top: 10px solid #4aaaa5;
+		float: left;
+	}
 
 </style>
