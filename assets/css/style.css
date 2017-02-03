@@ -169,7 +169,15 @@
 	p {
     	color: #777777;
     	float: left;
-	}
+    	display: inline;
+    }
+
+    .p1 {
+    	width: 300px;
+    	padding-left: 40px;
+
+    }
+	
 
 	hr {
 		color: #cccccc;
